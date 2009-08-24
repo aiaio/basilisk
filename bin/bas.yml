@@ -1,0 +1,7 @@
+# This is a basilisk config file.
+
+basilisk:
+  url: "http://www.handystorefixtures.com"
+  processors: ["seo"]
+  terms: []
+  user_agent: "ai-crawler"
