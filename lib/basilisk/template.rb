@@ -8,10 +8,11 @@ module Basilisk
 # Available processors include the following:
 #   seo: generates a csv with the following columns: url, title, description, keywords, h1s, h2s
 #   sitemap: generates an xml sitemap
+#   image: generates a list of broken images and images lacking an alt tag.
 #   error: generates a csv of urls returning html response codes other than success and redirect.
 #
 # Separate processors with a semi-colon:
-#   processors: "seo; sitemap"
+#   processors: "seo; sitemap; error"
 # Separate regex terms with a semi-colon:
 #   regex_search_terms: "error\w+;invalid\w+"
 # Separate css terms with a semi-colon:

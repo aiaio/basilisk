@@ -15,11 +15,13 @@ require 'seo_processor'
 require 'sitemap_processor'
 require 'error_processor'
 require 'terms_processor'
+require 'image_processor'
 
 BASILISK_ROOT = File.join(File.dirname(__FILE__), "..")
 
 class BasiliskError < StandardError; end
 class BasiliskArgumentError < BasiliskError; end
+class BasiliskImageError < BasiliskError; end
 
 module Basilisk
   extend self
