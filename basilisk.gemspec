@@ -15,7 +15,7 @@
   s.has_rdoc = true
   s.extra_rdoc_files = ["README.rdoc"]
   s.rdoc_options = ["--main", "README.rdoc"]
-  s.rubyforge_project = ""
+  s.rubyforge_project = "basilisk"
   s.add_dependency("anemone", [">= 0.1.2"])
   s.add_dependency("nokogiri", [">= 1.3.0"])
   s.add_dependency("fastercsv", [">= 1.5.0"])
