@@ -2,7 +2,7 @@
  
  Gem::Specification.new do |s|
   s.name = "basilisk"
-  s.version = "0.2.1"
+  s.version = "0.2.2"
   s.authors = ["Kyle Banker", "Alexander Interactive, Inc."]
   s.date = "2009-08-24"
   s.summary = "A command-line front-end for the anemone web-spider. Generates reports for seo, http errors and an xml sitemap. Extensible page handler."
@@ -15,7 +15,9 @@
   s.has_rdoc = true
   s.extra_rdoc_files = ["README.rdoc"]
   s.rdoc_options = ["--main", "README.rdoc"]
+  s.rubyforge_project = ""
   s.add_dependency("anemone", [">= 0.1.2"])
   s.add_dependency("nokogiri", [">= 1.3.0"])
   s.add_dependency("fastercsv", [">= 1.5.0"])
 end
+
