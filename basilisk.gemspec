@@ -2,7 +2,7 @@
  
  Gem::Specification.new do |s|
   s.name = "basilisk"
-  s.version = "0.2.4"
+  s.version = "0.2.5"
   s.authors = ["Kyle Banker", "Alexander Interactive, Inc."]
   s.date = "2009-08-24"
   s.summary = "A command-line front-end for the anemone web-spider. Generates reports for seo, http errors and an xml sitemap. Extensible page handler."
