@@ -8,7 +8,7 @@
   s.summary = "A command-line front-end for the anemone web-spider. Generates reports for seo, http errors and an xml sitemap. Extensible page handler."
   s.homepage = "http://github.com/aiaio/basilisk"
   s.email = "knb@alexanderinteractive.com"
-  s.files = ["HISTORY", "LICENSE", "README.rdoc", "bin/basil", "lib/basilisk.rb", "lib/basilisk/core.rb", "lib/basilisk/parser.rb", "lib/basilisk/processor.rb", "lib/basilisk/template.rb", "lib/basilisk/processors/error_processor.rb", "lib/basilisk/processors/seo_processor.rb", "lib/basilisk/processors/terms_processor.rb", "lib/basilisk/processors/sitemap_processor.rb", "lib/basilisk/processors/image_processor/rb", "test/basilisk_test.rb", "test/test_helper.rb"]
+  s.files = ["HISTORY", "LICENSE", "README.rdoc", "bin/basil", "lib/basilisk.rb", "lib/basilisk/core.rb", "lib/basilisk/parser.rb", "lib/basilisk/processor.rb", "lib/basilisk/template.rb", "lib/basilisk/processors/error_processor.rb", "lib/basilisk/processors/seo_processor.rb", "lib/basilisk/processors/terms_processor.rb", "lib/basilisk/processors/sitemap_processor.rb", "lib/basilisk/processors/image_processor.rb", "test/basilisk_test.rb", "test/test_helper.rb"]
   s.test_files = ["test/basilisk_test.rb", "test/test_helper.rb"]
   s.require_paths = ["lib"]
   s.executables = ["basil"]
